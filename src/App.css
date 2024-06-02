@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 100px;
+    width: 1500px;
+    background-color: rgb(8, 7, 27);
+}
+#span{
+    height: 60px;
+    width: 100px;
+    background-color: transparent;
+    border-color: transparent;
+    margin-left: 8px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: #61dbfb;
+}
+#span:hover{
+    background-color: #61dbfb;
+    color: black;
+}
+.div1{
+    height: 500px;
+    width: 720px;
+    /* background-color: orange; */
+    float: left;
+}
+.div2{
+    height: 500px;
+    width: 750px;
+    background-color: rgb(64, 0, 255);
+    float: left;
+}
+.ani{
+    animation: animate 3s infinite; 
+    /* animation-delay: 1s;  */
+    animation-timing-function: linear;
+}
+@keyframes animate { 
+    0% { 
+        letter-spacing: 0px; 
+    } 
+
+    /* 20% { 
+        letter-spacing: 20px; 
+    }  */
+
+    100% { 
+        letter-spacing: 20px; 
+    } 
+} 
+.skill1{
+  font-size: 30px;
+  text-align: center;
+    
+}
+.card   {
+    height: 650px;
+    width: 300px;
+    /* background-color: green;  */
+    /* display: flex; */
+     /* flex-wrap: wrap; */
+}
+#skill{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
